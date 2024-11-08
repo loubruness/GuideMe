@@ -1,0 +1,13 @@
+{
+  "Servers": {
+      "1": {
+          "Name": "GuideMe_connection",
+          "Group": "GuideMe",
+          "Host": "pg-32ad517b-arthurbillebaut-804b.b.aivencloud.com",
+          "Port": 10425,
+          "MaintenanceDB": "defaultdb",
+          "Username": "avnadmin",
+          "SSLMode": "require"
+      }
+  }
+}
