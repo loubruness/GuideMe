@@ -9,7 +9,7 @@ export default function Login() {
     <View className='flex-1 flex justify-end'>
       {/* jolie image de bg */}
       
-      <Image source={require('../../assets/images/louvreSmall.jpg')}
+      <Image source={require('../../assets/images/beach.jpg')}
         className='h-full w-full absolute'
       />
 
@@ -28,11 +28,11 @@ export default function Login() {
         </View> */}
         {/* Sign In and Sign Up buttons */}
         <View className="flex-col w-full justify-between pt-8">
-          <TouchableOpacity className="flex bg-orange-200 p-4 px-12 rounded-full mb-2">
-            <Text className="text-center font-semibold text-yellow-700" style={{fontSize: wp(5.5)}}>Sign In</Text>
+          <TouchableOpacity className="flex bg-blue-200 p-4 px-12 rounded-full mb-2">
+            <Text className="text-center font-semibold text-sky-900" style={{fontSize: wp(5.5)}}>Sign In</Text>
           </TouchableOpacity>
-          <TouchableOpacity className="flex bg-stone-900 p-4 px-12 rounded-full mt-2">
-            <Text className="text-center font-semibold text-stone-300" style={{fontSize: wp(5.5)}}>Sign Up</Text>
+          <TouchableOpacity className="flex bg-sky-900 p-4 px-12 rounded-full mt-2">
+            <Text className="text-center font-semibold text-blue-300" style={{fontSize: wp(5.5)}}>Sign Up</Text>
           </TouchableOpacity>
           
         </View>
@@ -55,10 +55,10 @@ export default function Login() {
           const styles = StyleSheet.create({
             logo: {
               position: 'absolute',
-              top: hp(10), // Adjust this value as needed
-              left: wp(20), // Adjust this value as needed
-              width: wp(50), // Adjust logo size as needed
-              height: wp(50), // Adjust logo size as needed
+              top: hp(3),
+              left: wp(10),
+              width: wp(40),
+              height: wp(40), 
               resizeMode: 'contain',
             },
           });
